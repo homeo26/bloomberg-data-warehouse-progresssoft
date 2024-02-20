@@ -1,0 +1,6 @@
+com/bloomberg/datawarehouse/Utils/DealHelperTest.class
+com/bloomberg/datawarehouse/Models/DealTest.class
+com/bloomberg/datawarehouse/BloombergApplicationTests.class
+com/bloomberg/datawarehouse/Services/DealServiceTest.class
+com/bloomberg/datawarehouse/Controllers/DealControllerTest.class
+com/bloomberg/datawarehouse/Utils/DealCustomResponseTest.class
