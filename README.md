@@ -34,7 +34,7 @@ The system offers various APIs for inserting & fetching FX deals into the wareho
 
 To run this project locally, follow these steps:
 
-### Run with Docker (Recommended)
+### Run with Docker Compose (Recommended)
 
 1. Clone this repository to your local machine using the following command:
 
@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 git clone https://github.com/homeo26/bloomberg-data-warehouse-progresssoft.git
 ```
 
-2. Ensure Docker is installed on your system.
+2. Ensure docker & Docker-compose installed on your system.
 3. Navigate to the project directory:
 
 ```bash
@@ -50,16 +50,16 @@ git clone https://github.com/homeo26/bloomberg-data-warehouse-progresssoft.git
 cd <pathTo/bloomberg>
 ```
 
-4. Build the Docker image:
+4. Run docker compose and the system must run:
 
 ```bash
-docker build -t bloomberg-image .
+docker-compose up --build
 ```
 
-5.Run the Docker container:
+5.To turn of the Docker container run the docker compose down:
 
 ```bash
-docker run -p 8080:8080 bloomberg-image
+docker compose down  
 ```
 
 ### Run with Maven
